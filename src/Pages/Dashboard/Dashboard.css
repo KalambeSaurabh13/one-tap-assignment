@@ -1,0 +1,55 @@
+.dashboardHeader{
+    padding: 0px 19px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    background: linear-gradient(45.62deg, #E2F1FF 4.94%, #DEEFFF 87.4%);
+    overflow: hidden;
+    
+}
+.dashboardHeader span{
+    color: #248FF2;
+    font-weight: 500;
+    font-size: 18px;
+}
+.bigPackage{
+    background: #F1F8FF;
+    box-shadow: 0px 2px 12px 0px #00000029;
+}
+.guyBackground{
+    background: #248FF2;
+    width: 51px;
+    height: 51px;
+    gap: 0px;
+    opacity: 0px;    
+    box-shadow: 0px 1px 1.6px 0px #97CDFF;
+}
+.ellipse{
+    position: absolute;
+    left: 8px;
+    top: -11px;
+}
+.guy{
+    position: relative;
+    z-index: 2;
+}
+.diamond{
+    position: absolute;
+    right: 0px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1!important;
+}
+
+@media(min-width:300px) and (max-width:825px){
+    .card-col{
+       margin-top: 20px;
+    }
+    .flexMedia{
+        flex-direction: column;
+    }
+     .Dnone{
+        display: none ;
+      }
+}

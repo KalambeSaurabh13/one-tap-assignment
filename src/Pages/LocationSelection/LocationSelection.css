@@ -1,0 +1,101 @@
+.heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+}
+
+.dashboardHeader {
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboardHeader .mx-4 {
+  flex-direction: column;
+  text-align: center;
+}
+
+.dashboardHeader .mx-4 .p-3 {
+  margin-bottom: 10px;
+}
+
+.blueBorder {
+  border: 1px solid #2e95f4;
+}
+
+.diamondHeight {
+  height: 65px;
+}
+
+.diamond1 {
+  position: absolute;
+  left: 0px;
+  object-fit: cover;
+}
+
+.diamond2 {
+  position: absolute;
+  right: 0px;
+  object-fit: cover;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  text-align: left;
+  color: #1c1818;
+}
+
+.customLocationtag {
+  top: 9px;
+  padding: 15px 20px 15px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
+  background: #f8f8f8;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  text-align: left;
+  width: fit-content;
+}
+
+.CompareButton {
+  top: 426.91px;
+  gap: 6px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  background: #ffffff;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #2a2626;
+  border: 1px solid #2E95F4
+}
+
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+  }
+
+  .CompareButton {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+  }
+  .padRemove{
+    padding: 4px !important;
+  }
+}

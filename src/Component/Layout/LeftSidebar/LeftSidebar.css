@@ -1,0 +1,135 @@
+.LeftSidebar {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  width: 20%;
+  color: #fff;
+  height: 100%;
+  overflow: auto;
+  z-index: 9;
+
+  gap: 300px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 16px 24px;
+  gap: 12px;
+  background: white;
+  border: 2px solid white;
+  color: #2a2626;
+  font-weight: 500;
+  margin: 0 20px;
+  text-align: justify;
+}
+.tabLinks {
+  text-decoration: none;
+  color: white;
+}
+.activate {
+  border: 2px solid #248ff2;
+  background-color: #248ff2;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0px 6px 6.8px 1px #00000036;
+  margin-bottom: 10px;
+}
+.building {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  color: #2a2626;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.sidebar-header{
+  text-align: center;
+}
+
+@media(min-width:300px) and (max-width:500px){
+  .LeftSidebar{
+    gap: 0;
+  }
+  .sidebar-header{
+    text-align: center;
+  }
+  .Mainbody{
+    width: 100%!important;
+  }
+  .building {
+    bottom: 9px;
+  }
+  .offcanvas {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1050;
+  }
+  
+  .offcanvas.show {
+    left: 0;
+  }
+  
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .offcanvas-body {
+    padding: 15px;
+  }
+}
+@media(min-width:500px) and (max-width:900px){
+  .offcanvas {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 1050;
+  }
+  
+  .offcanvas.show {
+    left: 0;
+  }
+  
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .offcanvas-body {
+    padding: 15px;
+  }
+
+  .LeftSidebar{
+    gap: 0;
+  }
+  .sidebar-header{
+    text-align: center;
+  }
+  .Mainbody{
+    width: 100%!important;
+  }
+  .building {
+    bottom: 9px;
+  }
+}
+

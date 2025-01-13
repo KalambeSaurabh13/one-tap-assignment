@@ -1,0 +1,53 @@
+
+.progress-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+}
+.progress-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.progress-track {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 8px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.progress-segment {
+    flex: 1;
+    margin-right: 10px;
+    background: #bbddff;
+    border-radius: 15px;
+    position: relative;
+}
+
+.progress-segment:last-child {
+    margin-right: 0;
+}
+
+
+.progress-filled {
+    background: #2E95f4;
+}
+
+
+.progress-percentage {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    color: #2e95f4;
+    font-weight: 400;
+    z-index: 1;
+}

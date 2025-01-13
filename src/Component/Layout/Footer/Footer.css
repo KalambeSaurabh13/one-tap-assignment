@@ -1,0 +1,32 @@
+.supportButton {
+    position: relative;
+  width: 164px;
+  height: 55px;
+  top: 6px;
+  gap: 34px;
+  border-radius: 37px;
+  border: 1px;
+  opacity: 0px;
+  background: #2e95f4;
+  border: 1px solid #ffffff;
+
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  box-shadow: 0px 4px 16px 0px #00000040;
+  text-align: right;
+
+}
+
+.supportButton img{
+    position: absolute;
+    left: 4px;
+    top: -2px;
+}
+.supportButtonParent{
+    position: fixed;
+    z-index: 10;
+    bottom: 20px; 
+    right: 20px;
+}

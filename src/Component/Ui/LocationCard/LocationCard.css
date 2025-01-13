@@ -1,0 +1,96 @@
+.locationPrice {
+  color: #2e95f4;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+.gray {
+  background-color: #f8f8f8;
+}
+.sky {
+  background: #f1f8ff;
+}
+.cardDesign {
+  border-radius: 15px;
+  box-shadow: 0px 2px 12px 0px #00000029;
+  border: none;
+}
+.cardDesign .card-body {
+  border-radius: 15px;
+}
+.planCircle {
+  width: 22px;
+  height: 22px;
+  gap: 0px;
+  border: 2px;
+  opacity: 0px;
+  background: #f8f8f8;
+  border: 2px solid #1787ef;
+  border-radius: 50%;
+}
+
+.planCircleFilled {
+  width: 22px;
+  height: 22px;
+  gap: 0px;
+  border: 2px;
+  opacity: 0px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: #148eff;
+  box-shadow: 0px 0px 7.4px -1px #0e78d9;
+  background: #148eff;
+}
+
+
+.cardDesign {
+  margin: 10px 0;
+}
+
+.planCircle, .planCircleFilled {
+  width: 20px;
+  height: 20px;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+}
+
+.locationPrice {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.cardMap {
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .cardDesign {
+    margin: 10px auto;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+  }
+
+  .locationPrice {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .planCircle, .planCircleFilled {
+    width: 15px;
+    height: 15px;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+  }
+
+  .cardMap {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,28 @@
+.button{
+    width: 136px;
+    height: 46px;
+    padding: 12px 20px 12px 20px;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: none;
+    font-weight: 500;
+}
+.dark {
+  background: #34393E;
+  color: white;
+}
+.light {
+    background: #FFFFFF;
+    color: #34393E;
+  }
+
+.sky{
+    background: #E5F2FF;
+    color: #34393E; 
+}
+.blue{
+  color: white;
+  background: #248FF2;
+}
