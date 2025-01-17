@@ -25,6 +25,15 @@
 .diamondHeight {
   height: 65px;
 }
+.taxHover:hover{
+  background: #fff !important;
+  box-shadow: 0px 2px 12px 0px #00000029;
+}
+.taxHover:hover button{
+  background: #fff !important;
+  box-shadow: 0px 2px 12px 0px #00000029;
+  color: #248FF2;
+}
 
 .diamond1 {
   position: absolute;

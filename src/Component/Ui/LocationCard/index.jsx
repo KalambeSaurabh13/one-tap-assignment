@@ -3,10 +3,10 @@ import Card from "react-bootstrap/Card";
 import "./LocationCard.css";
 import tick from "./tick-circle.png";
 import Button from "../Button";
-const LocationCard = ({variant, buttonVariant,filled}) => {
+const LocationCard = ({onClick,variant, buttonVariant,filled}) => {
 
   return (
-    <Card className="cardDesign" >
+    <Card className={`cardDesign ${filled}`} onClick={onClick} >
       <Card.Body className={variant}>
         <div className="d-flex justify-content-between">
         <Card.Title>Location</Card.Title>

@@ -13,14 +13,23 @@
   background: #34393E;
   color: white;
 }
+.dark:hover{
+  background: #248FF2;
+}
 .light {
     background: #FFFFFF;
     color: #34393E;
+  }
+  .light:hover{
+    background-color: #E5F2FF;
   }
 
 .sky{
     background: #E5F2FF;
     color: #34393E; 
+}
+.sky:hover{
+  background-color: #FFFFFF;
 }
 .blue{
   color: white;

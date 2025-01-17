@@ -17,6 +17,10 @@ const CompareModal = (props) => {
     { name:'Basic Books Annually',plan1:"Up to 4 employee",plan2:"check",plan3:"check"},
     { name:'Professional Boks & MIS-Monthly',plan1:"dash",plan2:"check",plan3:"dash"},
     { name:'Vat Consultancy',plan1:"check",plan2:"check",plan3:"dash"},
+    { name:'Payroll & WPS',plan1:"dash",plan2:"check",plan3:"dash"},
+    { name:'Economic substance regulations (ESR) filling',plan1:"check",plan2:"check",plan3:"check"},
+    { name:'License Renewal- Freezone',plan1:"dash",plan2:"check",plan3:"dash"},
+
   ]
 
 
@@ -88,13 +92,13 @@ const CompareModal = (props) => {
       <tbody>
         {Plan.map(({ name, plan1, plan2, plan3 }) => (
           <tr key={name} className="py-2 tableRow">
-            <td className="p-3 fw-bold ">{name}</td>
+            <td className="tableFirstContent p-3 ">{name}</td>
             <td className="text-center p-3 ">
               {plan1 === "Up to 4 employee" ? (
                 plan1
               ) : (
                 <img
-                  className="checkSize"
+                  className="checkSize" 
                   src={plan1 === "check" ? right : minus}
                   alt="check"
                 />

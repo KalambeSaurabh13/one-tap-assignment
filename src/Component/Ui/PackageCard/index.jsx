@@ -15,12 +15,11 @@ const PackageCard = ({
   ModalShowHandler
 }) => {
   return (
-      <Card className="cardBlur h-100" style={{ background: variant}}>
+      <Card className={`cardBlur h-100 ${popular}`}>
         <Card.Body className="p-4">
             <div className="d-flex justify-content-between align-items-center">
           <span
-            className="packageTagDesign p-2"
-            style={{ backgroundColor: popular ? "#FFFFFF" : "#F0F6FB" }}
+            className={`packageTagDesign p-2 ${popular}`}
           >
             <img className="guy" src={packageLogo} alt={packageText} />
             {packageText}
@@ -38,7 +37,7 @@ const PackageCard = ({
           <div className="d-flex justify-content-between align-items-center flexMedia">
             {Price!==''?
             <div className="d-flex">
-              <Button onClick={ModalShowHandler} variant={"light"}>Compare</Button>
+              <Button onClick={ModalShowHandler} variant={ variant==="#F1F8FF"?"light":"sky"}>Compare</Button>
               <Button variant={"dark"}>Buy Now</Button>
             </div>
             : 

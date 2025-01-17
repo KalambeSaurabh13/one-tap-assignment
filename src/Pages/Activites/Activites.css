@@ -67,7 +67,7 @@ button {
 }
 
 .phoneButtonHeader {
-  padding: 8px 15px;
+  padding: 8px 17px;
   border: 1px solid #2E95F4;
   border-radius: 10px;
   cursor: pointer;
@@ -76,8 +76,29 @@ button {
   padding: 8px 12px;
   margin: 0 5px;
 }
+.inputText{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+.subDiv{
+  gap: 0px;
+  justify-content: left;
+  margin-top: 10px;
+}
+.subTitle{
+  font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #1c1818;
+  
+}
 
-
+.sec:hover{
+  box-shadow: 0px 2px 12px 0px #00000029;
+}
 
 @media (max-width: 768px) {
   .container {

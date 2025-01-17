@@ -4,36 +4,66 @@
   line-height: 21.78px;
   text-align: left;
 }
-.packageTagDesign{
-    padding: 5px 15px;
-    gap: 10px;
-    border-radius: 5px;
-    border: 1px;
-    opacity: 0px;
-    
+.packageTagDesign {
+  padding: 5px 15px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-image-source: linear-gradient(139.32deg, #ffffff 3.8%, #bbd4ff 90.7%);
+  opacity: 0px;
+  color: #248ff2;
+  backdrop-filter: blur(8px);
 }
- .cardBlur{
-    backdrop-filter: blur(4px);
-    border: none;
-    box-shadow: 0px 2px 12px 0px #00000029;
-    border-radius: 15px;    
+
+.cardBlur.true {
+  background-color: #f1f8ff;
 }
-.price{
-font-size: 32px;
-font-weight: 600;
-line-height: 38.73px;
-text-align: center;
+.cardBlur.false {
+  background-color: #ffffff;
 }
-.Dshow{
+
+.cardBlur.false:hover {
+  background-color: #f1f8ff;
+  box-shadow: 0px 2px 12px 0px #00000029;
+}
+
+.cardBlur.false:hover button:first-child {
+  background-color: #ffffff !important;
+}
+.packageTagDesign.true {
+  background-color: #ffffff;
+}
+.packageTagDesign.false {
+  background-color: #f0f6fb;
+}
+.cardBlur.false:hover .packageTagDesign {
+  background-color: #ffffff;
+}
+
+.cardBlur {
+  backdrop-filter: blur(4px);
+  border: none;
+  border-radius: 15px;
+}
+.cardBlur.true{
+  box-shadow: 0px 2px 12px 0px #00000029;
+
+}
+.price {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  text-align: center;
+}
+.Dshow {
   display: none;
 }
 
-
-@media(min-width:300px) and (max-width:825px){
-  .Dshow{
+@media (min-width: 300px) and (max-width: 825px) {
+  .Dshow {
     display: block;
   }
-  .Dnone{
+  .Dnone {
     display: none !important;
   }
 }

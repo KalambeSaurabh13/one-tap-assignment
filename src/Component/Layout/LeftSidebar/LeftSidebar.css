@@ -48,7 +48,26 @@
 .sidebar-header{
   text-align: center;
 }
-
+.lock{
+  background-image: url(./lock.png);
+  height: 25px;
+  width: 23px;
+}
+.tabLinks:hover .tab{
+  background-color:#E1F1FF;
+  border-radius: 15px;
+}
+.tabLinks:hover .tab.activate{
+  border: 2px solid #248ff2;
+  background-color: #248ff2;
+}
+.tabLinks:hover .tab{
+  background-color:#E1F1FF;
+  border-radius: 15px;
+}
+ .tabLinks:hover .lock{
+  background-image: url(./boldLock.png);
+}
 @media(min-width:300px) and (max-width:500px){
   .LeftSidebar{
     gap: 0;

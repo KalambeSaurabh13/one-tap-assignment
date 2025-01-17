@@ -19,7 +19,7 @@ const WebsiteLayout = () => {
     <>
       <div className="">
         <Sidebar setShowSidebar={setShowSidebar} showSidebar={showSidebar} isMobile={isMobile} />
-        <div className="Mainbody mb-5" style={{ width: 'calc(100% - 20%)', height: '100vh', background: location.pathname === "/" ? '#F8F8F8' : "#FFFFFF", marginLeft: 'auto' }}>
+        <div className="Mainbody" style={{ width: 'calc(100% - 20%)', height: 'fit-content', background: location.pathname === "/" ? '#F8F8F8' : "#FFFFFF", marginLeft: 'auto' }}>
           <Header setShowSidebar={setShowSidebar} isMobile={isMobile} />
           <Outlet />
           <Footer />

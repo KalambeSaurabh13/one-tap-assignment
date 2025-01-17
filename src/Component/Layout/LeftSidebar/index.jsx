@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './LeftSidebar.css';
 import { NavLink } from 'react-router-dom';
 import Logo from './Logo.png';
@@ -9,7 +9,6 @@ import money from './dollar-square.png';
 import grid from './grid-5.png';
 import note from './note.png';
 import discount from './receipt-discount.png';
-import lock from './lock.png';
 import city from './city.png';
 
 
@@ -48,7 +47,7 @@ const LeftSidebar = ({ setShowSidebar, showSidebar, isMobile }) => {
                 <img src={logo} alt={title} />
                 <span className="d-flex w-75 justify-content-between">
                   <span className="">{title}</span>
-                  {!active && <img src={lock} alt={title} />}
+                  {!active && <div className='lock'></div>}
                 </span>
               </div>
             </NavLink>
